@@ -13,10 +13,16 @@
 
             do
             {
-                //if (loops == 0)
-                //{
+                /*
+                if (loops == 0)
+                {
+                Console.WriteLine("Since this is your first character you will not be able to re-roll any stats.");
 
-                //}
+                TODO: RANDOM CODE
+
+                Console.WriteLine("Your character:");
+                }
+                */
 
                 Console.WriteLine("RANDOMIZE:");
                 Console.WriteLine("1. Character Looks\n" +

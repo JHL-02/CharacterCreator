@@ -22,9 +22,13 @@
         //I DECIDED TO MAKE IT A METHOD AS I WILL USE IT SEMI-OFTEN
         public static void CustomReadKey()
         {
-            Console.WriteLine(); //JUST TO GIVE EXTRA SPACE
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("\nPress any key to continue...");
             Console.ReadKey();
+        }
+
+        public static void ReturnCharacter()
+        {
+            //TODO: ADD ALL STATS!
         }
 
     }
