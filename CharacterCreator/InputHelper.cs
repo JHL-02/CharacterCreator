@@ -26,9 +26,16 @@
             Console.ReadKey();
         }
 
-        public static void ReturnCharacter()
+        public static string GetString(string message, string errorMessage)
         {
-            //TODO: ADD ALL STATS!
+            Console.WriteLine(message);
+            string userInput = Console.ReadLine();
+            while (string.IsNullOrWhiteSpace(userInput))
+            {
+                ReturnErrorMessage(errorMessage);
+                userInput = Console.ReadLine();
+            }
+            return userInput;
         }
 
     }
